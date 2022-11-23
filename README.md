@@ -6,6 +6,8 @@
 
 ### To see typescript config search for `tsconfig.json` file
 
+### To see husky config search for `.husky/pre-commit` file
+
 #### Dependencies to install
 
 ```
@@ -21,12 +23,17 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "2.8.0"
+    "husky": "^8.0.0"
 ```
 
 #### Manual Installation
 
 ```
 npm i -D -E @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
+```
+
+```
+npx husky-init && npm install
 ```
 
 #### If you want have all those dependencies automatically run
