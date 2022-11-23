@@ -4,7 +4,7 @@
 
 ### To see prettier config search for `.prettierrc` file
 
-### To see husky config search for ` asda` file
+### To see typescript config search for `tsconfig.json` file
 
 #### Dependencies to install
 
