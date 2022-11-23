@@ -7,6 +7,7 @@ function App() {
 
   useEffect(() => {
     setAsd(asd + 1);
+    console.log({ asd });
   }, []);
 
   return (
